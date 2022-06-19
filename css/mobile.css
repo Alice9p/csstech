@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-VariableFont_wght.woff2") format("woff2");
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.header__logo {
+  margin-left: 1rem;
+  width: 12rem;
+}
+
+.landing {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+}
+.landing__vallas {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+}
+.landing__texto {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+}
+.landing__valla {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.landing__textos {
+  text-align: center;
+  margin-top: 2rem;
+}
+.landing__vallas-img {
+  width: 20rem;
+  margin-top: 3rem;
+}
+.landing__social-media {
+  width: 3rem;
+}
+.landing__texto-magic {
+  display: block;
+}
+.landing__texto-centrado {
+  text-align: center;
+}
+.landing__border {
+  border-bottom: 1px solid #FD7400;
+}
+.landing__texto-making {
+  color: #626161;
+}
+.landing__texto-naranja {
+  color: #FD7400;
+}
+.landing__texto-making {
+  font-weight: bold;
+}
+.landing__texto-magic {
+  font-weight: bolder;
+  font-size: 5rem;
+}
+.landing__tamaño-medio {
+  font-size: 3rem;
+}
+.landing__tamaño-pequeño {
+  font-size: 2rem;
+}
+
+.nav__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  list-style: none;
+  gap: 1rem;
+}
+
+.footer {
+  margin-top: 2rem;
+}
+.footer__texto {
+  text-align: center;
+  margin: 0.3rem;
+  font-size: 1rem;
+}
+.footer__enlaces {
+  text-decoration: none;
+  color: #626161;
+}
+.footer__empresa {
+  color: #626161;
+  font-weight: bold;
+}
+/*# sourceMappingURL=mobile.css.map */
